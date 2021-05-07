@@ -1,0 +1,105 @@
+
+body    {
+    background-color: #FEFBFB;
+}
+    
+main    {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+header  {
+    height: 162px;
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoynombre img {
+    height: 62px;
+    width: 81px;
+    display: flex;
+    justify-content: baseline;
+}
+.logoynombre h1 {
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    font-style: normal;
+}
+.logoynombre h2 {
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+}
+.logoynombre {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 98px;
+    color: #151414;
+}
+.logoynombre div {
+    padding-right: 15px;
+}
+.topnav {
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.topnav nav a       {
+    text-decoration: none;
+    text-transform: none;
+    color: #151414;
+}
+.topnav a:hover {
+  color: #F6D6F1;
+}
+
+.texto h1 {
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    font-style: normal;
+    color: #151414;
+}
+.texto p {
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    font-style: normal;
+    margin-top: 30px;
+    color: #151414;
+}
+.texto h1 span {
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 800;
+    font-size: 39px;
+}
+
+section img {
+    width: 680px;
+    height: 531px;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+footer {
+    position: relative;
+    width: 1440px;
+    height: 91px;
+    background-color: #F6D6F1;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-top: 25px;
+}

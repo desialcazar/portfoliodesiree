@@ -1,0 +1,164 @@
+body    {
+    background-color: #FEFBFB;
+}
+main    {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#proyecto1 p {
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size:24px;
+    padding-bottom: 20px;
+}
+
+#proyecto2 p {
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size:24px;
+    padding-bottom: 20px;
+}
+
+header  {
+    height: 162px;
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoynombre img {
+    height: 62px;
+    width: 81px;
+    display: flex;
+    justify-content: baseline;
+}
+.logoynombre h1 {
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    font-style: normal;
+}
+.logoynombre h2 {
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+}
+.logoynombre {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 98px;
+    color: #151414;
+}
+.logoynombre div {
+    padding-right: 15px;
+}
+.topnav {
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+    color: #151414;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.topnav nav a       {
+    text-decoration: none;
+    text-transform: none;
+}
+.topnav a:hover {
+  color: #F6D6F1;
+}
+
+.parrafotinder {
+    margin-bottom: 30px;
+}
+
+.parrafomaquiabella {
+    margin-bottom: 30px;
+}
+
+#proyecto1 {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 80px;
+}
+
+
+#proyecto1 img {
+    width: 244px;
+    height: 400px;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+#proyecto1 h2 {
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 45px;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#proyecto2 h2 {
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 45px;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.boton {
+    background-color: #F6D6F1;
+    color: black;
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+#proyecto2 img {
+    width: 515px;
+    height: 297px;
+    margin-right: 60px;
+    padding-top: 50px;
+}
+
+#proyecto2 {
+    display: flex;
+    flex-direction: row-reverse ;
+    width: 1000px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+footer {
+    position: relative;
+    width: 1440px;
+    height: 91px;
+    background-color: #F6D6F1;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-top: 25px;
+}

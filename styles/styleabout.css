@@ -1,0 +1,216 @@
+body    {
+    background-color: #FEFBFB;
+}
+main    {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/* p {
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size:24px;
+    padding-top: 20px;
+} */
+
+#container2 p {
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size:24px;
+    padding-top: 20px;
+}
+
+#container3 p {
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size:24px;
+    padding-top: 20px;
+}
+
+
+header  {
+    height: 162px;
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoynombre img {
+    height: 62px;
+    width: 81px;
+    display: flex;
+    justify-content: baseline;
+}
+.logoynombre h1 {
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    font-style: normal;
+}
+.logoynombre h2 {
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+}
+.logoynombre {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 98px;
+    color: #151414;
+}
+.logoynombre div {
+    padding-right: 15px;
+}
+.topnav {
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+    color: #151414;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.topnav nav a       {
+    text-decoration: none;
+    text-transform: none;
+}
+.topnav a:hover {
+  color: #F6D6F1;
+}
+
+section h1 {
+    font-family: “itc-avant-garde-gothic-pro”, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: normal;
+    padding-left: 20px;
+}
+.container1 {
+    width: 250px;
+    height: 50px;
+    background-color:  #F6D6F1;
+}
+
+.container1 h1 {
+    font-family: “itc-avant-garde-gothic-pro”, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: normal;
+    margin-left: 20px;
+    padding-top: 20px;
+    display: flex;
+}
+
+
+
+.container2 {
+    display: flex;
+    margin-left: 300px;
+    text-align: right;
+}
+
+
+.container2 h2 {
+    font-family: “itc-avant-garde-gothic-pro”, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 45px;
+    text-align: right;
+    padding-top: 50px;
+}
+
+.parrafobad {
+    padding-bottom: 50px;
+}
+
+
+
+.boton {
+    background-color: #F6D6F1;
+    color: black;
+    font-family: “itc-avant-garde-gothic-pro”, sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    align-items: center;
+    margin-top: 30p;
+    padding-bottom: 40px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 10px;
+}
+
+
+
+#container3 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+
+#container3 h2 {
+    font-family: “itc-avant-garde-gothic-pro”, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 45px;
+    text-align: left;
+    padding-top: 30px;
+}
+
+
+#container3 img {
+    width: 372px;
+    height: 390px;
+    margin-left: 100px;
+}
+
+
+
+.box1, .box2{
+    width: 280px;
+    height: 150px;
+    background-color: blanchedalmond;
+    padding: 16px 24px;
+}
+
+.sectionBox{
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.sectionBox a {
+    font-family: “itc-avant-garde-gothic-pro”, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    color:#363131;
+    margin-top: 30px;
+}
+.sectionBox a:hover {
+  color: #F0A1E2;
+}
+
+footer {
+    position: relative;
+    width: 1440px;
+    height: 91px;
+    background-color: #F6D6F1;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-top: 25px;
+}
